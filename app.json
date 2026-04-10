@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "qcgabay",
+    "slug": "qcgabay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "qcgabay",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#88a9d6",
+        "foregroundImage": "./assets/images/logofg.png",
+        "backgroundImage": "./assets/images/logobg.png",
+        "monochromeImage": "./assets/images/logomc.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "newArchEnabled": false,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.enzon.qcgabay"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#88a9d6",
+          "dark": {
+            "backgroundColor": "#88a9d6"
+          }
+        }
+      ],
+      "@react-native-community/datetimepicker"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "34f2bf6b-5148-4ee9-8919-43df836cdcc3"
+      }
+    }
+  }
+}
