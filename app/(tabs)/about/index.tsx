@@ -19,6 +19,12 @@ export default function AboutPage() {
       role: "Lead Developer", 
       image: require('../../../assets/images/francisco.png') 
     },
+
+    { 
+      name: "Olex gammad", 
+      role: "Information Security", 
+      image: require('../../../assets/images/gammad.png') 
+    },
    
     { 
       name: "Daniel Josh Gapasin", 

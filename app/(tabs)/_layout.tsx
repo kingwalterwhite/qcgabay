@@ -59,11 +59,16 @@ function RootLayoutNav() {
       <Tabs.Screen name="announcements/index" options={{ title: 'Announcements', tabBarIcon: ({ color }) => <Ionicons name="notifications" size={28} color={color} /> }} />
       <Tabs.Screen name="more/index" options={{ title: 'More', tabBarIcon: ({ color }) => <Entypo name="list" size={28} color={color} /> }} />
 
-      <Tabs.Screen name="events/[id]" options={{ href: null }} />
-      <Tabs.Screen name="about/index" options={{ href: null }} />
-      <Tabs.Screen name="location/index" options={{ href: null }} />
-      <Tabs.Screen name="contacts/index" options={{ href: null }} />
-            <Tabs.Screen name="home/[id]" options={{ href: null }} />
+      <Tabs.Screen name="events/[id]" options={{ href: null , 
+      tabBarStyle: { display: 'none' }}} />
+      <Tabs.Screen name="about/index" options={{ href: null , 
+      tabBarStyle: { display: 'none' }}} />
+      <Tabs.Screen name="location/index" options={{ href: null , 
+      tabBarStyle: { display: 'none' }}} />
+      <Tabs.Screen name="contacts/index" options={{ href: null , 
+      tabBarStyle: { display: 'none' }}} />
+            <Tabs.Screen name="home/[id]" options={{ href: null , 
+      tabBarStyle: { display: 'none' }}} />
 
 
     </Tabs>

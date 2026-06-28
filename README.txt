@@ -1,6 +1,7 @@
 INSTALL ON TERMINAL:
 
 
+npm install
 
 npx expo install firebase
 
